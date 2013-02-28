@@ -1,3 +1,11 @@
 .b { background-color: #ABC; }
 .top-buffer { margin-top:30px; }
-body { font-family: 'Quando', serif; }
+body { font-family: 'Quando', serif; font-size: 16px; line-height: 28px; padding-top: 40px; }
+h1 { font-size: 50px; margin: 40px; }
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+
+
