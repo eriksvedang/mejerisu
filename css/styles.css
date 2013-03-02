@@ -1,8 +1,18 @@
 .b { background-color: #ABC; }
+
 .top-buffer { margin-top:30px; }
 .bottom-buffer { margin-bottom:30px; }
-body { font-family: 'Quando', serif; font-size: 16px; line-height: 28px; }
-h1 { font-size: 50px; }
+.image-spacing { margin-bottom:20px; }
+
+body { 
+	font-family: 'Antic Didone', serif;
+/*	font-size: 18px; 
+	line-height: 26px;*/
+}
+
+h1 { font-size: 40px; font-family: 'Didot' }
+
+p { text-align:justify; }
 
 .navbar {
   margin-bottom: 20px;
@@ -24,3 +34,29 @@ h1 { font-size: 50px; }
 	background-color: #FF9;
 }
 
+.series {
+	/*border: 1px dashed #999;*/
+}
+
+.series a {
+	color: #99B;
+	font-size: 16px;
+
+}
+
+.navbar-inner {
+  background-color: #F00; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+.firstletter {
+	float: left;
+	font-size: 4.3em;
+	line-height: 1;
+	font-weight: bold;
+	margin-right: 0.05em;
+	margin-bottom: 0em;
+	margin-left: -0.15em;
+}
